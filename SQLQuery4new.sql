@@ -1,7 +1,7 @@
 --select data we use 
 
 select location, date, total_cases, new_cases, total_deaths, population
-from dbo.CovidDeaths$
+from dbo.CovidDeaths
 order by 1, 2;
 
 -- percentage of total cases vs total deaths in Algeria.
